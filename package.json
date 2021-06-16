@@ -9,7 +9,7 @@
     "test": "mocha test/*.test.js",
     "test:watch": "mocha -w $(find . -name '*.test.js')",
     "sync": "node test/syncExpect.js",
-    "prepublish": "npm run build"
+    "prepare": "npm run build"
   },
   "author": "Derek Rushforth",
   "license": "MIT",
